@@ -61,7 +61,7 @@ const Index = () => {
             
             <div className="bg-primary/20 rounded-xl p-6 mb-4">
               <p className="text-6xl md:text-7xl font-black text-white mb-2 animate-pulse">
-                10000000000000
+                0
               </p>
               <p className="text-2xl md:text-3xl font-bold text-accent">
                 НОЧЕЙ В 99 НОЧЕЙ
