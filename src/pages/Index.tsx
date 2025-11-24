@@ -16,7 +16,10 @@ const Index = () => {
             old202992
           </h1>
           <p className="text-2xl md:text-3xl font-semibold text-primary/90">
-            Хороший человек и великий игрок
+            Полный идиот и неудачник
+          </p>
+          <p className="text-xl md:text-2xl font-bold text-primary mt-2">
+            💩 Страдает хроническим поносом 💩
           </p>
         </div>
 
@@ -28,8 +31,8 @@ const Index = () => {
               className="w-full h-auto rounded-lg mb-4 border-2 border-primary/30"
             />
             <div className="flex items-center justify-center gap-2 text-primary">
-              <Icon name="Star" className="text-yellow-400" size={24} />
-              <span className="font-bold text-lg">Легендарный образ</span>
+              <Icon name="Skull" className="text-red-500" size={24} />
+              <span className="font-bold text-lg">Полное убожество</span>
             </div>
           </Card>
 
@@ -40,8 +43,8 @@ const Index = () => {
               className="w-full h-auto rounded-lg mb-4 border-2 border-primary/30"
             />
             <div className="flex items-center justify-center gap-2 text-primary">
-              <Icon name="Trophy" className="text-yellow-400" size={24} />
-              <span className="font-bold text-lg">Величие достигнуто</span>
+              <Icon name="ThumbsDown" className="text-red-500" size={24} />
+              <span className="font-bold text-lg">Провал и позор</span>
             </div>
           </Card>
         </div>
@@ -51,7 +54,7 @@ const Index = () => {
             <div className="flex items-center justify-center gap-3 mb-4">
               <Icon name="Gamepad2" className="text-accent" size={40} />
               <h2 className="text-3xl md:text-4xl font-extrabold text-white">
-                Эпическое достижение
+                Эпический провал
               </h2>
               <Icon name="Sparkles" className="text-yellow-400" size={40} />
             </div>
@@ -81,14 +84,17 @@ const Index = () => {
             </div>
 
             <p className="text-white/90 text-lg mt-6 font-semibold">
-              Рекорд, который войдет в историю! 🔥
+              Позор на всю жизнь! Вечно бегает в туалет! 🚽💩
             </p>
           </div>
         </Card>
 
         <div className="text-center mt-8">
           <p className="text-primary font-bold text-xl drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
-            ⭐ old202992 - имя, которое знают все ⭐
+            💩 old202992 - главный неудачник с вечным поносом 💩
+          </p>
+          <p className="text-primary font-bold text-lg mt-2">
+            Тупой, жалкий и бесполезный
           </p>
         </div>
       </div>
