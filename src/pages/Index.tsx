@@ -185,6 +185,147 @@ const Index = () => {
 
       <section className="py-20">
         <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-black text-white text-center mb-4">
+            ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ
+          </h2>
+          <p className="text-center text-slate-400 mb-12">
+            Мощная начинка в неубиваемом корпусе
+          </p>
+          
+          <div className="max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-orange-500/20 p-3 rounded-lg">
+                    <Icon name="Cpu" size={28} className="text-orange-500" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Процессор</h3>
+                    <p className="text-slate-400">MediaTek Helio G99</p>
+                    <p className="text-sm text-slate-500">8 ядер, до 2.2 ГГц</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-purple-500/20 p-3 rounded-lg">
+                    <Icon name="MemoryStick" size={28} className="text-purple-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Память</h3>
+                    <p className="text-slate-400">8 ГБ RAM + 256 ГБ ROM</p>
+                    <p className="text-sm text-slate-500">Расширение до 1 ТБ (microSD)</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-blue-500/20 p-3 rounded-lg">
+                    <Icon name="Monitor" size={28} className="text-blue-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Дисплей</h3>
+                    <p className="text-slate-400">6.58" IPS, Full HD+</p>
+                    <p className="text-sm text-slate-500">2408x1080, Gorilla Glass 5</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-green-500/20 p-3 rounded-lg">
+                    <Icon name="Battery" size={28} className="text-green-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Аккумулятор</h3>
+                    <p className="text-slate-400">6000 мАч</p>
+                    <p className="text-sm text-slate-500">Быстрая зарядка 33W</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-red-500/20 p-3 rounded-lg">
+                    <Icon name="Camera" size={28} className="text-red-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Камеры</h3>
+                    <p className="text-slate-400">64 МП основная + 8 МП ширик</p>
+                    <p className="text-sm text-slate-500">Фронтальная 16 МП</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-yellow-500/20 p-3 rounded-lg">
+                    <Icon name="Radio" size={28} className="text-yellow-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Связь</h3>
+                    <p className="text-slate-400">4G LTE, Dual SIM</p>
+                    <p className="text-sm text-slate-500">Wi-Fi 5, Bluetooth 5.2, NFC</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-cyan-500/20 p-3 rounded-lg">
+                    <Icon name="Navigation" size={28} className="text-cyan-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Навигация</h3>
+                    <p className="text-slate-400">GPS, ГЛОНАСС, Beidou</p>
+                    <p className="text-sm text-slate-500">Galileo, QZSS</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-slate-800 border-slate-700 p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-pink-500/20 p-3 rounded-lg">
+                    <Icon name="Package" size={28} className="text-pink-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Размеры</h3>
+                    <p className="text-slate-400">174 x 82 x 15 мм</p>
+                    <p className="text-sm text-slate-500">Вес: 320 грамм</p>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            <Card className="bg-gradient-to-r from-orange-600 to-red-600 border-none p-8 mt-8">
+              <div className="text-center">
+                <h3 className="text-3xl font-black text-white mb-3">
+                  СЕРТИФИКАТЫ ЗАЩИТЫ
+                </h3>
+                <div className="flex flex-wrap justify-center gap-6 text-white">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Award" size={24} />
+                    <span className="text-lg font-bold">IP68</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Award" size={24} />
+                    <span className="text-lg font-bold">IP69K</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Award" size={24} />
+                    <span className="text-lg font-bold">MIL-STD-810G</span>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
             <Card className="bg-slate-800 border-slate-700 p-8">
               <div className="text-center mb-8">
